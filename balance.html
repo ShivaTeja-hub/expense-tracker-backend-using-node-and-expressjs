@@ -1,0 +1,68 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<title> expense details page</title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+        }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1>  enter the expense details  </h1> </center>   
+    <form>
+    <div class="container">   
+            <label> groceries </label>  <br>  
+            <input type="text" id="groceries" placeholder="Enter groceries costs" name="groceries" required><br>  
+            <label> medicines </label>  <br>  
+            <input type="text" placeholder="Enter medicines costs" name="medicines" required><br>  
+            <label>clothes </label>  <br>  
+            <input type="text" placeholder="Enter clothes costs" name="clothes" required><br>  
+            <label>entertainment </label>  <br>  
+            <input type="text" placeholder="Enter entertainment costs" name="entertainment" required><br>  
+            <label>services_and_bills </label>  <br>  
+            <input type="text" placeholder="Enter services_and_bills costs" name="services_and_bills" required><br>  
+            <label> travelling </label>   
+            <input type="text" placeholder="Enter  travelling costs" name=" travelling" required><br>    
+            
+            <button type="submit">save</button> 
+            <input type="checkbox" checked="checked"> Remember me
+</div>   
+</form>   
+</body>     
+</html>  
